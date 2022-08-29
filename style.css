@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(13, 238, 133);
+}
+header,section,footer{
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+
+}
+h1{
+    
+    text-align: center;
+    
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+label{
+    font-family: Arial black;
+    background-color: rgb(1, 1, 6);
+    color: white;
+    border: 2px solid green;
+}
+form{
+    text-align: center;
+    background-color: rgb(21, 110, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(212, 253, 9);
+    border-radius: 15px;
+}
+button{
+    border-radius: 10px;
+    width: 350px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-size: large;
+}
+input{
+    height: 22px;
+    width: 180px;
+    height: 30px;
+}
+select{
+    width: 180px;
+    height: 30px;
+}
+ul{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    width:  auto;
+    columns: white;
+    border: 1px solid green;
+}
+li{
+    border: 1px grey;
+}

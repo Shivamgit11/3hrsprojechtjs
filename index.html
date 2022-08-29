@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>Expense Tracker</h1>
+</header>
+    <section>
+        <form onsubmit="saveToLocalStorage(event)">
+            <label>Expense Amount</label>
+            <input id="expensechecked" type="text" name="expensevalue" required><br><br>
+            <label>Chose Description</label>
+            <input id="descriptionchecked" type="text" name="descriptioncheck" required><br><br>
+            <label>Choose a category</label>
+            
+            <select id="selectchecked" name="select">
+                <option>Movie</option>
+                <option>party</option>
+                <option>Travelling</option>
+                <option>Cant Say</option>
+            </select><br><br>
+            <button>Add Expense</button>
+        </form>
+
+    </section>
+    <footer>
+    <ul id="ListofUsers"></ul>
+</footer>
+    <script src="local.js"></script>
+</body>
+</html>
